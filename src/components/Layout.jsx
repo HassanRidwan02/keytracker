@@ -28,8 +28,8 @@ export default function Layout() {
               <Icon name="key" />
             </span>
             <span className={styles.brandText}>
-              <span className={styles.brandTitle}>University ICT Services</span>
-              <span className={styles.brandSub}>Lab Key Tracker</span>
+              <span className={styles.brandTitle}>Crescent University ICT Services</span>
+              <span className={styles.brandSub}>Labs Key Tracker</span>
             </span>
           </NavLink>
 
