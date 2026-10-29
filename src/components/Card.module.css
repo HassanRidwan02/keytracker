@@ -1,0 +1,18 @@
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-card);
+}
+
+.tile {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+}
+.brand { background: var(--brand-100); color: var(--brand-800); }
+.muted { background: var(--brand-50); color: var(--brand-800); }
+.success { background: var(--success-soft); color: var(--success); }
+.returned { background: var(--slate-100); color: var(--success); }
+.inverse { background: #fff; color: var(--brand-800); }

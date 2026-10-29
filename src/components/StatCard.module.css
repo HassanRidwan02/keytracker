@@ -1,0 +1,33 @@
+.stat {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.125rem 1.25rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+@media (min-width: 640px) { .stat { padding: 1.5rem; } }
+@media (hover: hover) {
+  .stat:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(18, 27, 51, 0.08); }
+}
+.label { font-size: 0.875rem; font-weight: 500; color: var(--muted); }
+.value {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.default { color: var(--ink); }
+.success { color: var(--success); }
+.brand { color: var(--brand-800); }
+.caption { margin-top: 0.5rem; font-size: 0.875rem; color: var(--muted); }
+
+/* Phones: compact 3-up tiles */
+@media (max-width: 639px) {
+  .stat { padding: 0.875rem 0.75rem; }
+  .icon, .caption { display: none; }
+  .label { font-size: 0.75rem; }
+  .value { margin-top: 0.25rem; font-size: 1.75rem; }
+}

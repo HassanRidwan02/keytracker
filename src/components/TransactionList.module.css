@@ -1,0 +1,19 @@
+.empty { padding: 1.5rem 0; font-size: 0.875rem; color: var(--muted); }
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.item:first-child { padding-top: 0; }
+.item:last-child { padding-bottom: 0; border-bottom: 0; }
+@media (min-width: 640px) {
+  .item { gap: 1rem; }
+}
+.text { flex: 1; min-width: 0; }
+.title { font-weight: 600; overflow-wrap: anywhere; }
+.meta { font-size: 0.8125rem; color: var(--muted); }
+@media (min-width: 640px) {
+  .title, .meta { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}

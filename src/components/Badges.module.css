@@ -1,0 +1,20 @@
+.key {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  background: var(--brand-100);
+  color: var(--brand-800);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.pill {
+  flex-shrink: 0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.checkout { background: var(--brand-100); color: var(--brand-800); }
+.return { background: var(--slate-100); color: #475569; }
